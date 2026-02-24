@@ -28,4 +28,4 @@ jobs:
         with:
           working-directory: ./test  
           start: npx http-server . --port 3000
-          wait-on: 'http://localhost:3000'
+          wait-on: 'http://localhost:3000' 
